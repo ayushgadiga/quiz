@@ -1,1 +1,71 @@
-hi
+The import statements importing library functions:
+tkinter
+sqlite3
+OOP concept
+
+1) Problem Statements:
+
+Traditional quiz systems (paper-based or simple tools) are:
+Time-consuming to manage
+Difficult to evaluate instantly
+Not interactive for users
+There is a need for an automated, user-friendly quiz system with instant results.
+
+2) Objectives:
+
+To develop an interactive quiz system using Python
+To implement a Graphical User Interface (GUI) using Tkinter
+To store and manage quiz data using SQLite database
+To apply Object-Oriented Programming (OOP) concepts like:
+Classes
+Inheritance
+Methods
+To provide:
+Real-time quiz interaction
+Timer-based quiz
+Score tracking and history
+To create an admin panel for adding questions dynamically
+
+3) Features:
+
+i) User Features:
+Enter username before starting quiz
+Attempt randomized quiz questions
+Multiple question types:
+Multiple Choice Questions (MCQ)
+True/False
+Timer-based quiz (60 seconds) ⏳
+Instant score calculation
+Automatic result display
+
+ii) Admin Features:
+Add new questions through GUI
+Supports:
+MCQ (with 4 options)
+True/False questions
+Input validation and error handling
+
+iii) Database Features (SQLite):
+Stores:
+Questions
+User scores
+Automatically initializes database
+Saves quiz history with:
+Username
+Score
+Total marks
+Date & time
+
+iv) History Tracking:
+View past quiz attempts
+Displays data in a table format
+Sorted by latest attempts
+
+v) Technical Features:
+Built using Tkinter (GUI Framework)
+Uses SQLite3 (Database)
+Implements:
+Exception Handling
+Randomization of questions
+Timer using after() method
+Clean and modular code structure
